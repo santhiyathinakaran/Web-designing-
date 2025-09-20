@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    header {
+      background: crimson;
+      color: white;
+      padding: 20px;
+      font-size: 24px;
+    }
+    .container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .box {
+      padding: 20px;
+      margin: 5px;
+      color: white;
+      border-radius: 5px;
+    }
+    .green {
+      background: green;
+      display: flex;
+      flex-direction: column;
+    }
+    .green .row {
+      display: flex;
+    }
+    .blue {
+      background: deepskyblue;
+    }
+    .yellow {
+      background: gold;
+    }
+  </style>
+</head>
+<body>
+  <header>Welcome RMC Queens</header>
+  <div class="container">
+    <div class="green">
+      <div class="row">
+        <div class="box blue">1</div>
+        <div class="box blue">2</div>
+      </div>
+      <div class="row">
+        <div class="box">3</div>
+        <div class="box">4</div>
+      </div>
+    </div>
+    <div class="box blue">222</div>
+    <div class="box yellow">333</div>
+  </div>
+</body>
+</html>
